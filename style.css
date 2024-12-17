@@ -3,30 +3,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000; /* Black background */
-    color: #FFFFFF; /* White text color for contrast */
+    color: #FFFFFF; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically */
+    text-align: center;
 }
 
-header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-.manga-gallery {
+.logo-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
 }
-.manga-item {
-    margin: 10px;
-    text-align: center;
-}
-.manga-item img {
-    max-width: 150px;
-    height: auto;
-    border-radius: 8px;
-}
+
 footer {
     text-align: center;
     padding: 10px;
