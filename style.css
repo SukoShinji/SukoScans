@@ -1,22 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
+/* Ensure the background is black */
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
     background-color: #000000; /* Black background */
     color: #FFFFFF; /* White text */
+}
+
+body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Center vertically */
+    height: 100vh; /* Center content vertically */
     text-align: center;
 }
 
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Style for the logo container */
+.logo-container img {
+    max-width: 150px;
 }
 
+/* Optional: Style footer for consistency */
 footer {
     text-align: center;
     padding: 10px;
